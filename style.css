@@ -22,13 +22,13 @@ body {
     border-radius: 10px;
 }
 
-h1 {
+#headercontainer {
     background-color: white;
     display: flex;
     border-radius: 10px;
 }
 
-.box{
+.headerbox{
     flex: auto;
     font-size: 30px;
     align-items: center;
@@ -40,6 +40,16 @@ h1 {
     width: 50px;
 }
 
+a {
+    text-decoration: none;
+    color: #000000; 
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #7c7c7c; 
+  }
+
 .booktable {
     background-color: white;
     table-layout: fixed;
@@ -50,11 +60,6 @@ h1 {
     border-spacing: 20px;
     border-radius: 10px;
     margin-top: 20px;
-}
-
-td {
-    border-radius: 10px;
-    border: 1px solid black;
 }
 
 .bookcontainer {
@@ -122,7 +127,7 @@ td {
     .bookproduct {
         width: 50%;
     }
-    h1 {
+    #headercontainer {
         display: block;
     }
     .bookproduct img {
