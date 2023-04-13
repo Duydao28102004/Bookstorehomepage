@@ -142,6 +142,19 @@ a {
     vertical-align: text-top;
 }
 
+.contactusinfo {
+    border: 0;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.infobox {
+    width: 250px;
+}
+
+.infocontain {
+    width: 50%;
+}
 @media only screen and (max-width: 960px) {
     .bookproduct {
         width: 50%;
@@ -159,5 +172,7 @@ a {
     .tablefooterhead {
         font-size: 20px;
     }
-
+    .infocontain {
+        width: 100%;
+    }
 }
