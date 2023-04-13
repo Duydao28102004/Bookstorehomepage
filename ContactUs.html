@@ -14,36 +14,54 @@
                 <div class="headerbox"><a href="index.html">Home</a></div>
                 <div class="headerbox"><a href="VietNambook.html">Viet Nam classic books</a></div>
                 <div class="headerbox"><a href="Comicbook.html">Comic books</a></div>
-                <div class="headerbox">About us</div>
+                <div class="headerbox"><a href="ContactUs.html">Contact Us</a></div>
                 <div class="headerbox"><img class="logo" src="https://i.pinimg.com/originals/95/f8/58/95f8588d6469a16271ea2d2fad419d00.png"></div>
             </h1>
             <table class="booktable">
                 <th>Contact Us form</th>
                 <tr>
                     <td class="bookcontainer">
-                        <p class="infocontain">
-                            Purposes:
-                        </p>
-                        <p class="infocontain">
-                            <select>
+                        <div class="infocontain"><strong>Purposes:</strong></div>
+                        <div class="infocontain">
+                            <select class="infobox" name="purposes" id="purposes"> 
                                 <option value="1">-----Select your purposes-----</option>
                                 <option value="2">I want to sell a book</option>
                                 <option value="3">I want to buy a book</option>
                                 <option value="4">I get trouble in payment step</option>
                             </select>
-                        </p>
-                        <p class="infocontain">
-                            Full name:
-                        </p>
-                        <p class="infocontain">
-                            <input class="infobox" type="text" placeholder="Enter your full name here..."></input>
-                        </p>
-                        <p class="infocontain">
-                            Email:
-                        </p>
-                        <p class="infocontain">
-                            <input class="infobox" type="email" placeholder="example@gmail.com"></input>
-                        </p>
+                        </div>
+                        <div class="infocontain"><strong>Full name:</strong></div>
+                        <div class="infocontain">
+                            <input class="infobox" type="text" placeholder="Enter your full name here..." name="fullname" id="fullname">
+                        </div>
+                        <div class="infocontain"><strong>Email:</strong></div>
+                        <div class="infocontain">
+                            <input class="infobox" type="email" placeholder="example@gmail.com" name="email" id="email">
+                        </div>
+                        <div class="infocontain"><strong>Contact reference:</strong></div>
+                        <div class="infocontain">
+                            <input type="checkbox" name="Contactreference" id="Contactreference"> By email
+                            <input type="checkbox" name="Contactreference" id="Contactreference"> By phone
+                        </div>
+                        <div class="infocontain"><strong>Receive weekly newsletter:</strong></div>
+                        <div class="infocontain">
+                            <input type="radio" name="weeklynewsletter" value="yes"> Yes
+                            <input type="radio" name="weeklynewsletter" value="no"> No
+                        </div>
+                        <div class="infocontain"><strong>Extra notes:</strong></div>
+                        <div class="infocontain">
+                            <textarea rows="10" placeholder="write your note in here..."></textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="booktable">
+                            <tr>
+                                <td><a href="index.html" class="addcartbutton">Submit!</a></td>
+                                <td><a href="ContactUs.html" class="addcartbutton">Reset</a></td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
