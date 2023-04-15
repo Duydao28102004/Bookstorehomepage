@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Contact Us</title>
+    <title>Book Detail Page</title>
 </head>
 <body>
     <div class="webcontainer">
@@ -17,51 +17,51 @@
                 <div class="headerbox"><a href="ContactUs.html">Contact Us</a></div>
                 <div class="headerbox"><img class="logo" src="https://i.pinimg.com/originals/95/f8/58/95f8588d6469a16271ea2d2fad419d00.png"></div>
             </h1>
+            <p><a href="index.html">Home page</a> > <a href="Comicbook.html">Comic books</a> > <a href="Marvelversemorbius.html">Marvel-Verse: Morbius</a></p>
             <table class="booktable">
-                <th>Contact Us form</th>
                 <tr>
                     <td class="bookcontainer">
-                        <div class="infocontain"><strong>Purposes:</strong></div>
                         <div class="infocontain">
-                            <select class="infobox" name="purposes" id="purposes"> 
-                                <option value="1">-----Select your purposes-----</option>
-                                <option value="2">I want to sell a book</option>
-                                <option value="3">I want to buy a book</option>
-                                <option value="4">I get trouble in payment step</option>
-                            </select>
+                            <table>
+                                <tr>
+                                    <td rowspan="3"><img class="bookdetailimg" src="imgs/Marvel-Verse_Morbius.jpg"></td>
+                                    <td><img class="subbookdetailimg" src="imgs/Marvel-Verse_Morbius2.jpg"></td>
+                                </tr>
+                                <tr>
+                                    <td><img class="subbookdetailimg" src="imgs/Marvel-Verse_Morbius3.jpg"></td>
+                                </tr>
+                                <tr>
+                                    <td><img class="subbookdetailimg" src="imgs/Marvel-Verse_Morbius4.jpg"></td>
+                                </tr>
+                            </table>
                         </div>
-                        <div class="infocontain"><strong>Full name:</strong></div>
                         <div class="infocontain">
-                            <input class="infobox" type="text" placeholder="Enter your full name here..." name="fullname" id="fullname">
+                            <p><strong>Marvel-Verse: Morbius</strong></p>
+                            <p class="bookdescription"><strong>Price:</strong> 9.99$</p>
+                            <p class="bookdescription">
+                                <strong>Quantity:</strong>
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </p>
+                            <p class="bookdescription"><strong>Author:</strong> Ralph Macchio, Kevin Grevioux, Roy Thomas, Bill Mantlo, Gil Kane</p>
+                            <p class="bookdescription"><strong>Delivery time:</strong> 3-5 working days</p>
+                            <p class="bookdescription">
+                                <strong>Description:</strong>
+                                Micheal Morbius is an iconic character of the Marvel-Verse who transformed to a living vampire by himself. This book will tell us the first time Spider-man meet Micheal Morbius.
+                            </p>
+                            <table>
+                                <tr>
+                                    <td><a href="#" class="addcartbutton">Buy now</a></td>
+                                    <td><a href="#" class="addcartbutton">Add to cart</a></td>
+                                </tr>
+                            </table>
+                            
                         </div>
-                        <div class="infocontain"><strong>Email:</strong></div>
-                        <div class="infocontain">
-                            <input class="infobox" type="email" placeholder="example@gmail.com" name="email" id="email">
-                        </div>
-                        <div class="infocontain"><strong>Contact reference:</strong></div>
-                        <div class="infocontain">
-                            <input type="checkbox" name="Contactreference" id="Contactreference"> By email
-                            <input type="checkbox" name="Contactreference" id="Contactreference"> By phone
-                        </div>
-                        <div class="infocontain"><strong>Receive weekly newsletter:</strong></div>
-                        <div class="infocontain">
-                            <input type="radio" name="weeklynewsletter" value="yes"> Yes
-                            <input type="radio" name="weeklynewsletter" value="no"> No
-                        </div>
-                        <div class="infocontain"><strong>Extra notes:</strong></div>
-                        <div class="infocontain">
-                            <textarea rows="10" placeholder="write your note in here..."></textarea>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table class="booktable">
-                            <tr>
-                                <td><a href="index.html" class="addcartbutton">Submit!</a></td>
-                                <td><a href="ContactUs.html" class="addcartbutton">Reset</a></td>
-                            </tr>
-                        </table>
                     </td>
                 </tr>
             </table>
@@ -98,6 +98,6 @@
                 </tr>
             </table>
         </div>
-    
+    </div>
 </body>
 </html>
