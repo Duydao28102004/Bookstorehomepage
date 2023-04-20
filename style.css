@@ -191,6 +191,11 @@ a:hover {
     font-size: 20px;
 }
 
+.storelocation {
+    width: 600px;
+    height: 400px;
+}
+
 @media only screen and (max-width: 960px) {
     .bookproduct {
         width: 50%;
@@ -231,4 +236,8 @@ a:hover {
         margin: 0px 0px ;
     }
     
+    .storelocation {
+        height: 200px;
+        width: 250px;
+    }
 }
