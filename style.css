@@ -176,6 +176,10 @@ a:hover {
     margin: 0 0;
 }
 
+.tablebookdetailimg {
+    margin: auto;
+}
+
 .bookdetailimg {
     height: 400px;
     width: 300px;
@@ -184,6 +188,14 @@ a:hover {
 .subbookdetailimg {
     height: 150px;
     width: 100px;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
 }
 
 .bookdescription {
@@ -228,8 +240,8 @@ a:hover {
     }
 
     .subbookdetailimg {
-        width: 50px;
-        height: 75px;
+        width: 80px;
+        height: 120px;
     }
 
     .addcartbutton {
@@ -239,5 +251,13 @@ a:hover {
     .storelocation {
         height: 200px;
         width: 250px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 }
