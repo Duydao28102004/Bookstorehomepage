@@ -1,3 +1,4 @@
+/* Adjust the body */
 body {
     background-color: rgb(213, 213, 213);
     margin: 0px 10px;
@@ -161,102 +162,117 @@ a:hover {
     vertical-align: text-top;
 }
 
-.contactusinfo {
-    border: 0;
-    text-align: left;
-    vertical-align: text-top;
-}
-
+/* Adjust the size of the input boxes inside Contact us page */
 .infobox {
     width: 250px;
 }
 
+/* Divide boxes for each parts in the Contact us page container */
 .infocontain {
     width: 50%;
     margin: 0 0;
 }
-
+/* Adjust the table contain images in the book detail pages */
 .tablebookdetailimg {
     margin: auto;
 }
 
+/* Adjust the size of main book detail images */
 .bookdetailimg {
     height: 400px;
     width: 300px;
 }
 
+/* Adjust the size of sub book detail images */
 .subbookdetailimg {
     height: 150px;
     width: 100px;
 }
 
+/* Make the 3 sub book detail images display on the left of main images on desktop */
 .mobile {
     display: none;
 }
 
+/* Make the 3 sub book detail images display on the left of main images on desktop */
 .desktop {
     display: block;
 }
 
+/* Adjust the text in book description */
 .bookdescription {
     text-align: left;
     font-size: 20px;
 }
 
+/* Adjust the size of the iframe in the footer */
 .storelocation {
     width: 600px;
     height: 400px;
 }
 
+/* Responsive for mobile page */
 @media only screen and (max-width: 960px) {
+    /* Display the book boxes with 100% width in small screen */
     .bookproduct {
-        width: 50%;
+        width: 100%;
     }
 
+    /* Display the navigation bar in column in small screen */
     #headercontainer {
         display: block;
     }
 
+    /* Adjust the size of the book images in small screen */
     .bookproduct img {
         width: 100%;
-        height: 200px;
+        height: auto;
     }
 
+    /* Adjust the font size of the text in footer in small screen */
     .tablefooterinfo {
         font-size: 15px;
     }
 
+    /* Adjust the font size of the header of eac in small screen */
     .tablefooterhead {
         font-size: 20px;
     }
 
+    /* Set the 100% width for each part of the Contact us page in small screen */
     .infocontain {
         width: 100%;
     }
 
+    /* Adjust the size of main book detail images in small screen */
     .bookdetailimg {
-        width: 200px;
-        height: 250px;
+        width: 100%;
+        height: auto;
     }
 
+    /* Adjust the size of sub book detail images in small screen */
     .subbookdetailimg {
-        width: 80px;
-        height: 120px;
+        width: 100%;
+        height: auto;
     }
 
+    /* Adjust the margin of the add cart button in small screen */
     .addcartbutton {
         margin: 0px 0px ;
     }
     
+    /* Adjust the iframes size in the small screen */
     .storelocation {
         height: 200px;
         width: 250px;
     }
 
+    /* Make the 3 sub book detail images display on the bottom of main images on mobile */
     .desktop {
         display: none;
     }
 
+    /* Make the 3 sub book detail images display on the bottom of main images on mobile */
     .mobile {
         display: block;
     }
